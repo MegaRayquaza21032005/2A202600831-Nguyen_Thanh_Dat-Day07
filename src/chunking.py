@@ -19,6 +19,8 @@ class FixedSizeChunker:
         self.chunk_size = chunk_size
         self.overlap = overlap
 
+
+
     def chunk(self, text: str) -> list[str]:
         if not text:
             return []
